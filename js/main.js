@@ -72,7 +72,8 @@
       </li>`
     )
     .join("");
-  $("#sfProject").innerHTML = projectCard(SALESFORCE.project);
+  if (SALESFORCE.project) $("#sfProject").innerHTML = projectCard(SALESFORCE.project);
+  else $("#sfProjectWrap").hidden = true;
   if (SALESFORCE.profile) {
     $("#sfProfile").href = SALESFORCE.profile;
     $("#sfProfile").hidden = false;

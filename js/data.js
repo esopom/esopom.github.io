@@ -45,12 +45,7 @@ const SALESFORCE = {
   certifications: [
     { name: "Salesforce Certified Platform Administrator", issuer: "Salesforce", date: "ago. 2026", url: "" },
   ],
-  project: {
-    title: "Práctica de exámenes Salesforce",
-    description: "Web estática para preparar las certificaciones: exámenes tipo test de Administrator (ADM 201) y Platform Developer I, con modo repaso y estadísticas guardadas en el navegador.",
-    repo: "https://github.com/esopom/practica-examenes",
-    demo: "https://esopom.github.io/practica-examenes/",
-  },
+  project: null, // proyecto destacado (null = se oculta)
 };
 
 /* ---------- Proyectos de GitHub ---------- */
@@ -58,13 +53,6 @@ const GITHUB = {
   user: "esopom",
   url: "https://github.com/esopom",
   repos: [
-    {
-      title: "practica-examenes",
-      description: "Simulador de exámenes de Salesforce (Administrator y Platform Developer I) con cientos de preguntas, repaso de fallos y estadísticas. Sin servidor: funciona en GitHub Pages.",
-      tags: ["JavaScript", "Salesforce"],
-      repo: "https://github.com/esopom/practica-examenes",
-      demo: "https://esopom.github.io/practica-examenes/",
-    },
     {
       title: "red-monitor",
       description: "Monitor en tiempo real de los dominios que visita cada dispositivo de una red propia, mediante ARP spoofing y análisis de DNS y del SNI de TLS.",
